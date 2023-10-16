@@ -1,0 +1,39 @@
+* {
+	background-color: YellowGreen;
+}
+
+body  {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Georgia;
+	color: SaddleBrown;
+}
+
+#missions {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#missions td, #missions th {
+	border: 1px solid SaddleBrown;
+	padding: 10px;
+}
+
+#missions th {
+	background-color: SaddleBrown;
+	color: YellowGreen;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: YellowGreen;
+  background-color: SaddleBrown;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: circle;
+} 
+
+
