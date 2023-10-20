@@ -9,6 +9,11 @@ body  {
 	color: #80461B;
 }
 
+p {
+	font-family: Georgia;
+	font-size: 16px;
+}
+
 /* -- MenuOption formatting begin - with help from https://www.youtube.com/watch?v=oLgtucwjVII -- */
 div.navbar {
 	padding: 0;
