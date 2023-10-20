@@ -1,5 +1,5 @@
 * {
-	background-color: #C2B280; /* colour from https://htmlcolorcodes.com/colors/shades-of-brown/ */
+	background-color: #C2B280; /* -- colour from https://htmlcolorcodes.com/colors/shades-of-brown/ --*/
 }
 
 body  {
@@ -9,7 +9,7 @@ body  {
 	color: #80461B;
 }
 
-/* navigation bar formatting - with help from https://www.youtube.com/watch?v=oLgtucwjVII */
+/* -- MenuOption formatting begin - with help from https://www.youtube.com/watch?v=oLgtucwjVII -- */
 div.navbar {
 	padding: 0;
 	margin: 0;
@@ -21,7 +21,7 @@ div.navbar {
 }
 
 label.logo {
-	color: YellowGreen;
+	color: YellowGreen; /*obvious colour choice to represent Shrek's skin! */
 	font-size: 35px;
 	font-weight: bold;
 	line-height: 60px;
@@ -59,8 +59,9 @@ a.hover {
 	color: YellowGreen;
 	background-color: Red;
 }
+/* -- MenuOption formatting ends -- */
 
-/* Start of table options CSS */
+/* -- TableOption formatting begins -- */
 #missions {
 	width: 100%;
 	border-collapse: collapse;
@@ -72,29 +73,27 @@ a.hover {
 }
 
 #missions th {
-	background-color: SaddleBrown;
+	background-color: YellowGreen;
 	opacity: 0.8;
-	color: YellowGreen;
+	color: SaddleBrown;
 }
-/* End of table options CSS */
+/* -- TableOption formatting ends -- */
 
+/* -- Headers formatting -- */
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: YellowGreen;
-  background-color: SaddleBrown;
-  padding: 20px;
-}
-
-h2 {
+	font-size: 25px;
+	font-weight: bold;
 	color: YellowGreen;
 	background-color: SaddleBrown;
 	padding-left: 10px;
 }
 
-h3 {
+h2 {
+	font-size: 20px;
+	font-weight: lighter;
 	outline-style: solid;
 	outline-width: medium;
+	outline-color: DarkGreen;
 	width: 100px;
 	text-align: center;
 	color: SaddleBrown;
@@ -106,18 +105,20 @@ h3 {
   list-style-type: circle;
 } 
 
-/* Links formatting for page 2 - under likes and dislikes*/
+/* LinksOption formatting begins */
 a.external {
-	color: #A0522D;
+	color: ForestGreen;
 	font-weight: bold;
 }
 
 a.external:hover {
 	color: YellowGreen;
 	background-color: SaddleBrown;
+	font-size: 125%;
 }
+/* LinksOption formatting ends */
 
-/* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - Means the text is on the right-hand side of the image, rather than below */
+/* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
 img {
 	float: left;
 	border: 5px solid Brown;
